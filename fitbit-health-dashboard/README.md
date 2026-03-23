@@ -55,3 +55,13 @@ streamlit run dashboard/streamlit_app.py
 - Intraday stress windows by hour + weekday.
 - Office vs non-office segmentation.
 - Next-day elevated stress classifier from RHR + sleep debt + activity load.
+
+
+## I just want the live website (simple)
+If you are not a software engineer, follow this file exactly:
+- `fitbit-health-dashboard/LIVE_WEBSITE_GUIDE_FOR_NON_ENGINEERS.md`
+
+It gives step-by-step copy/paste setup for:
+- Render (backend API)
+- Supabase (database)
+- Streamlit (live dashboard URL)
